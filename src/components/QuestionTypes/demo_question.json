@@ -1,0 +1,132 @@
+{
+    "survey_id": "1",
+    "survey": [
+        {
+            "question_id": 1,
+            "question": "What is the capital of India?",
+            "questionType": "MultipleChoice",
+            "options": [
+                "Delhi",
+                "Mumbai",
+                "Kolkata",
+                "Chennai"
+            ]
+        },
+        {
+            "question_id": 2,
+            "survey_id": "1",
+            "question": "Select the programming languages you know.",
+            "questionType": "Checkboxes",
+            "options": [
+                "JavaScript",
+                "Python",
+                "Java",
+                "C++"
+            ]
+        },
+        {
+            "question_id": 3,
+            "question": "Rate your experience with our service.",
+            "questionType": "StarRating",
+            "options": [
+                "1 star",
+                "2 stars",
+                "3 stars",
+                "4 stars",
+                "5 stars"
+            ]
+        },
+        {
+            "question_id": 4,
+            "question": "Choose the best and worst features of our product.",
+            "questionType": "BestWorstScale",
+            "options": [
+                "Design",
+                "Usability",
+                "Performance",
+                "Support"
+            ]
+        },
+        {
+            "question_id": 5,
+            "question": "Upload your resume.",
+            "questionType": "FileUpload"
+        },
+        {
+            "question_id": 6,
+            "question": "Provide your full name.",
+            "questionType": "SingleTextbox"
+        },
+        {
+            "question_id": 7,
+            "question": "Please provide additional comments or feedback.",
+            "questionType": "CommentBox"
+        },
+        {
+            "question_id": 8,
+            "question": "Rate the following aspects of our service.",
+            "questionType": "MatrixRatingScale",
+            "rows": [
+                "Quality",
+                "Speed",
+                "Price"
+            ],
+            "columns": [
+                "Poor",
+                "Fair",
+                "Good",
+                "Very Good",
+                "Excellent"
+            ]
+        },
+        {
+            "question_id": 9,
+            "question": "Rank the following fruits from most to least favorite.",
+            "questionType": "Ranking",
+            "options": [
+                "Apple",
+                "Banana",
+                "Cherry",
+                "Date"
+            ]
+        },
+        {
+            "question_id": 10,
+            "question": "Select your satisfaction level.",
+            "questionType": "Slider",
+            "min": 0,
+            "max": 10
+        },
+        {
+            "question_id": 11,
+            "question": "Enter your contact information.",
+            "questionType": "MultipleTextboxes",
+            "textboxes": [
+                "Name",
+                "Email",
+                "Phone"
+            ]
+        },
+        {
+            "question_id": 12,
+            "question": "Select your appointment date and time.",
+            "questionType": "DateTime"
+        },
+        {
+            "question_id": 13,
+            "question": "Evaluate the following options.",
+            "questionType": "MatrixOfDropdownMenus",
+            "rows": [
+                "Option 1",
+                "Option 2",
+                "Option 3"
+            ],
+            "columns": [
+                "Poor",
+                "Average",
+                "Good",
+                "Excellent"
+            ]
+        }
+    ]
+}

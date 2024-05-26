@@ -1,24 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import SurveyBuilder from './components/SurveyBuilder';
+import SurveyView from './components/SurveyView';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div>
+        <h1>Survey Builder</h1>
+        <Routes>
+          <Route path="/" element={<SurveyBuilder />} />
+          <Route path="/new" element={<SurveyView />} />
+
+          {/* You can add more routes here if needed */}
+        </Routes>
+      </div>
+    </Router>
   );
 }
 
